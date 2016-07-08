@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('in-class-express:server');
+var debug = require('debug')('01-template:server');
 var http = require('http');
 
 /**
@@ -82,10 +82,6 @@ function onError(error) {
  */
 
 function onListening() {
-<<<<<<< HEAD
-=======
-  console.log("not magic")
->>>>>>> 638e1dc6708fbb3c055b3fd59ff7077ac6403c6d
   var addr = server.address();
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr

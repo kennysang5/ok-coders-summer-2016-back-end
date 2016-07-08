@@ -1,13 +1,10 @@
 {
-  "name": "in-class-express",
+  "name": "01-template",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-<<<<<<< HEAD
-    "start": "node ./bin/www"
-=======
-    "start": "nodemon ./bin/www"
->>>>>>> 638e1dc6708fbb3c055b3fd59ff7077ac6403c6d
+    "start": "node ./bin/www",
+    "watch": "nodemon ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.15.1",
@@ -15,10 +12,6 @@
     "debug": "~2.2.0",
     "express": "~4.13.4",
     "jade": "~1.11.0",
-<<<<<<< HEAD
-=======
-    "mongoose": "^4.5.3",
->>>>>>> 638e1dc6708fbb3c055b3fd59ff7077ac6403c6d
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
   }
